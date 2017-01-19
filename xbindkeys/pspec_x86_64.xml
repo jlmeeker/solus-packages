@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>xbindkeys</Name>
+        <Packager>
+            <Name>Jared Meeker</Name>
+            <Email>jared@meekers.org</Email>
+        </Packager>
+        <License>GPL</License>
+        <PartOf>xorg.apps</PartOf>
+        <Summary xml:lang="en">Launch shell commands with your keyboard or your mouse under X</Summary>
+        <Description xml:lang="en">xbindkeys is a program that allows you to launch shell commands with your keyboard or your mouse under X Window. It links commands to keys or mouse buttons, using a configuration file. It&apos;s independant of the window manager and can capture all keyboard keys (ex: Power, Wake...).
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>xbindkeys</Name>
+        <Summary xml:lang="en">Launch shell commands with your keyboard or your mouse under X</Summary>
+        <Description xml:lang="en">xbindkeys is a program that allows you to launch shell commands with your keyboard or your mouse under X Window. It links commands to keys or mouse buttons, using a configuration file. It&apos;s independant of the window manager and can capture all keyboard keys (ex: Power, Wake...).
+</Description>
+        <PartOf>xorg.apps</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="man">/usr/share/man</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-01-19</Date>
+            <Version>1.8.6</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Jared Meeker</Name>
+            <Email>jared@meekers.org</Email>
+        </Update>
+    </History>
+</PISI>

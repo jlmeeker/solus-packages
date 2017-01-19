@@ -1,0 +1,4 @@
+libX11.so.6
+libc.so.6
+libguile-2.0.so.22
+libpthread.so.0
